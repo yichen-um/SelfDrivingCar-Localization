@@ -1,3 +1,14 @@
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+# Udacity Self-Driving Car Engineer Nanodegree
+# Project: Kidnapped Vehicle (Localization)
+This project aims to develop an algorithm in C++ using particle filter to localize a vehicle in a 2D space. In the simulation, the vehicle is provided with a sensor that can detect landmarks within its range, and a map corresponding to the 2D space that with all the positions of the landmarks specified. The filter is designed to estimate the position of the vehicle by finding the particles with most matched landmarks within sensor's range and that from the map. 
+
+The implemented algorithm is able to track the positon and the heading of the vehicle within the requirement. 
+
+The description below comes from the original repo. 
+
+---
+
 # Overview
 This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
 
