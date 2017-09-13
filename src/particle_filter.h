@@ -26,7 +26,7 @@ struct Particle {
 
 
 class ParticleFilter {
-	
+    
 	// Number of particles to draw
 	int num_particles; 
 	
@@ -71,7 +71,7 @@ public:
 	 * @param yaw_rate Yaw rate of car from t to t+1 [rad/s]
 	 */
 	void prediction(double delta_t, double std_pos[], double velocity, double yaw_rate);
-	
+    
 	/**
 	 * dataAssociation Finds which observations correspond to which landmarks (likely by using
 	 *   a nearest-neighbors data association).
